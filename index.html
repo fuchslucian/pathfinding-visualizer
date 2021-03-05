@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/path-visualizer.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Pathfinding-visualizer</title>
+</head>
+<body>
+    <div class="navigation-grid">
+        <div class="navigation-grid-normal">
+            <div id="dropdown_id" class="">
+                <p id="get_dropdown" class="navigation-grid-div">Algorithms<i class="fa fa-caret-down"></i></p>
+                <div class="dropdown-content">
+                    <a id="bfs" >Breath-First-Search</a>
+                    <a id="dfs" >Depth-First-Search</a>
+                </div>
+            </div>
+        </div>
+        <div class="navigation-grid-normal">
+            <div id="visualize" class="">
+                <p>Visualize!</p>
+            </div>
+        </div>
+        <div id="clear-board" class="navigation-grid-normal">
+            <p >Clear Board</p>
+        </div>
+        <div id="clear-path" class="navigation-grid-normal">
+            <p>Clear Path</p>
+        </div>
+        <div class="navigation-grid-normal">
+            <div id="generate-maze">
+                <p>Generate random maze</p>
+            </div>
+        </div>
+    </div>
+    <div class="info-grid">
+        <div id="info">
+        </div>
+    </div>
+    <div id="board">
+    </div>
+    <script language="javascript" type="text/javascript" src="../javascript/board.js"></script>
+    <script language="javascript" type="text/javascript" src="../javascript/set_walls_start_end.js"></script>
+    </script>
+    <div id="aaa">
+
+    </div>
+    <script language="javascript" type="text/javascript" src="../javascript/get_algorithm.js"></script>
+    <script language="javascript" type="text/javascript" src="../javascript/algorithms.js"></script>
+</body>
+</html>
